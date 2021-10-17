@@ -38,15 +38,14 @@ public class CharacterSpawner : MonoBehaviour
     IEnumerator Execute()
     {
         executedText();
-        //yield return new WaitForSeconds(5f);
-        //slide to right somehow
-        for (int i = 0; i < 100; i++) 
+        yield return new WaitForSeconds(1f);
+        for (int i = 0; i < 400; i++) 
         {
-            transform.position += new Vector3(30 * Time.deltaTime, 0, 0);
+            transform.position += new Vector3(10 * Time.deltaTime, 0, 0);
             yield return null;
         }
         //play scream sound
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3f);
         spriteRenderer.enabled = false;
         newCharacter();
     }
@@ -56,17 +55,21 @@ public class CharacterSpawner : MonoBehaviour
     IEnumerator Spare()
     {
         sparedText();
-        yield return new WaitForSeconds(5f);
-        //slide to left somehow
-        //transform.position += new Vector3(-30 * Time.deltaTime, 0, 0);
-        //play Cheer sound
+        yield return new WaitForSeconds(2.5f);
+        for (int i = 0; i < 400; i++)
+        {
+            transform.position += new Vector3(-10 * Time.deltaTime, 0, 0);
+            yield return null;
+        }
+        //play scream sound
+        yield return new WaitForSeconds(3f);
         spriteRenderer.enabled = false;
         newCharacter();
     }
 
     void newCharacter()
     {
-        transform.position = new Vector3(0, 0, 0);
+        transform.position = new Vector3(0, 0.65f, 0);
 
         rand_num = Random.Range(0, Sprite_Pic.Length);
         GetComponent<SpriteRenderer>().sprite = Sprite_Pic[rand_num];
@@ -82,8 +85,8 @@ public class CharacterSpawner : MonoBehaviour
 
         if      (rand_num == 0) { textB.text = "Hey, when did it become a crime to wear a ski mask?  It’s fall, and it’s cold! Just because I happened to be walking by the bank during the time of a robbery doesn’t make me a prime suspect.  I swear I saw the real bank robbers run off into the night. I was arrested was because I didn’t have a reason to run."; }
         else if (rand_num == 1) { textB.text = "I uhh– I lost track of my spendings. Why don’t you just give me community service? I’ll be able to pay everyone back eventually, I mean, I’m just forgetful. Why are people always so mad when I take months to venmo them back?" ; }
-        else if (rand_num == 3) { textB.text = "Why am I here? Because I hate kittens?"; }
-        else if (rand_num == 2) { textB.text = "I see no problem bringing a 700lb beast laptop to class. Although my desk is reinforced with steel beams and I need a power cable stretched all the way across the room, I’m sure this causes no inconvenience for other people. I’m sure everyone loves the colored lights from my RGB Backlit keyboard and the earth shattering hum of my cooling fans. "; }
+        else if (rand_num == 2) { textB.text = "Why am I here? Because I hate kittens?"; }
+        else if (rand_num == 3) { textB.text = "I see no problem bringing a 700lb beast laptop to class. Although my desk is reinforced with steel beams and I need a power cable stretched all the way across the room, I’m sure this causes no inconvenience for other people. I’m sure everyone loves the colored lights from my RGB Backlit keyboard and the earth shattering hum of my cooling fans. "; }
         else if (rand_num == 4) { textB.text = "Listen. I pay an absurd amount of money each semester to just be here. I don’t see why I should be in trouble for simply stealing a couple dollars of stuff from the cafeteria. I’m basically paying for it anyway."; }
         else                    { textB.text = "Too many sprites! Not enough Scenarios! Ash!!!"; }
     }
