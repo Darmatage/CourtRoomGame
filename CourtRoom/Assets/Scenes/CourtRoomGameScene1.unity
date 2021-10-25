@@ -183,6 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wealth_end: 0
   reputation_end: 0
+  sprites_displayed: 0
 --- !u!1 &26888860
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,6 +580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1736810128}
   animator: {fileID: 1099455719}
+  emptyStack: 0
 --- !u!4 &976122764
 Transform:
   m_ObjectHideFlags: 0
@@ -1121,6 +1123,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5d5e78b539dd3464f8138324c8ddfcde, type: 3}
   - {fileID: 21300000, guid: fa5078a95ab5a704aa364d3027600709, type: 3}
   - {fileID: 21300000, guid: 5d5e78b539dd3464f8138324c8ddfcde, type: 3}
+  total_sprites_displayed: 0
+  sentences_done: 0
   dialogue:
     scenarioSentences: []
   scenarioText: {fileID: 1736810126}

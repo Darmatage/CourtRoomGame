@@ -10,6 +10,8 @@ public class CharacterSpawner : MonoBehaviour
     SpriteRenderer spriteRenderer;
 
     public int total_sprites_displayed = 0;
+    public bool sentences_done;  //tracks if entire case has been read
+    GameObject d_manager;
 
     private bool inputAllowed = true;
 
@@ -24,25 +26,31 @@ public class CharacterSpawner : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         newCharacter();
+        //d_manager = GameObject.Find("DialogueManager");   -- Couldn't figure this out. "Object reference not set to an instance of an object"
+        //sentences_done = d_manager.GetComponent<DialogueManager>().emptyStack;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetKey("escape")){
+        if (Input.GetKey("escape"))
+        {
             Application.Quit();
-        } else if(inputAllowed == true){
-            if (Input.GetKey("right"))
+        }
+        else if (inputAllowed == true)
+        {
+            if (Input.GetKey("right") /*&& sentences_done*/)
             {
-               StartCoroutine(Execute());
-               inputAllowed = false;
+                StartCoroutine(Execute());
+                inputAllowed = false;
             }
-            else if (Input.GetKey("left"))
+            else if (Input.GetKey("left") /*&& sentences_done*/)
             {
                 StartCoroutine(Spare());
                 inputAllowed = false;
             }
         }
+    
     }
 
 

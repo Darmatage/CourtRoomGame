@@ -11,9 +11,21 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
 
+    public bool emptyStack;
+
     void Start()
     {
         sentences = new Queue<string>();
+        emptyStack = false;
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            emptyStack = false;
+            DisplayNextSentence();
+        }
     }
 
     public void StartDialogue (Dialogue dialogue)
@@ -34,10 +46,10 @@ public class DialogueManager : MonoBehaviour
     {
         if (sentences.Count == 0)
         {
+            emptyStack = true;
             EndDialogue();
             return;
         }
-
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));

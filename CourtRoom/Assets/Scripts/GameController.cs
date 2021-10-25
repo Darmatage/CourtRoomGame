@@ -11,9 +11,9 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        int wealth_end = this.GetComponent<CharacterStats>().wealth;
-        int reputation_end = this.GetComponent<CharacterStats>().reputation;
-        int sprites_displayed = GameObject.Find("CharacterSpawner").GetComponent<CharacterSpawner>().total_sprites_displayed;
+        wealth_end = this.GetComponent<CharacterStats>().wealth;
+        reputation_end = this.GetComponent<CharacterStats>().reputation;
+        sprites_displayed = GameObject.Find("CharacterSpawner").GetComponent<CharacterSpawner>().total_sprites_displayed;
     }
 
     // Update is called once per frame
