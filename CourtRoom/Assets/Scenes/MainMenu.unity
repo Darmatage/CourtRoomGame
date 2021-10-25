@@ -214,29 +214,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3236168745694732882, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168745694732882, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1280
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168745694732882, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 720
+      objectReference: {fileID: 0}
     - target: {fileID: 3236168745694732884, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 246.31
+      value: 698.8294
       objectReference: {fileID: 0}
     - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 53.315
+      value: 208.6864
       objectReference: {fileID: 0}
     - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000015259
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 134.73
+      value: 175
       objectReference: {fileID: 0}
     - target: {fileID: 3236168746033968659, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_Text
-      value: Welcome to the Courtroom
+      value: Welcome to the Courtroom!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168746033968659, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 8db42f1d2b3974b5fbfc453ccc3b8b24, type: 3}
+    - target: {fileID: 3236168746033968659, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168746033968659, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747110406720, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_Color.a
@@ -255,12 +279,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -144
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747557179216, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_Text
@@ -278,6 +310,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3236168747557179216, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747557179216, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 3236168747693307546, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_Text
       value: 'You are the king, and you must judge who shall be executed and who
@@ -292,13 +332,17 @@ PrefabInstance:
 
         Hit the start button below to begin the game.'
       objectReference: {fileID: 0}
+    - target: {fileID: 3236168747693307546, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 477.5573
+      value: 698.83
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 216.1384
+      value: 357.3794
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -306,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 019819275e075434f9162224cba76d4d, type: 3}

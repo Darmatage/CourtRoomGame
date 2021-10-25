@@ -271,37 +271,99 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3236168745694732882, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168745694732882, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1280
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168745694732882, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 720
+      objectReference: {fileID: 0}
     - target: {fileID: 3236168745694732884, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 555
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 107.9743
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 175
+      value: 315
       objectReference: {fileID: 0}
     - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 129
+      value: 230
       objectReference: {fileID: 0}
     - target: {fileID: 3236168746033968659, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_Text
       value: SUCCESS!
       objectReference: {fileID: 0}
+    - target: {fileID: 3236168746033968659, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168746033968659, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 175
+      value: 315
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 48
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747557179216, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747557179216, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747693307546, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_Text
-      value: 'You managed to balance your wealth and reputation. '
+      value: 'You managed to strike a balance between your own reputation and the
+        wealth of the kingdom, becoming the greatest ruler this land has ever seen.
+        Long my you reign. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747693307546, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 555
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 184.167
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 162.19
+      value: 315
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 123.108475
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 019819275e075434f9162224cba76d4d, type: 3}

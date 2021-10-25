@@ -480,37 +480,100 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3236168745694732882, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168745694732882, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1280
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168745694732882, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 720
+      objectReference: {fileID: 0}
     - target: {fileID: 3236168745694732884, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 341.8474
+      value: 587.874
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 133.7486
       objectReference: {fileID: 0}
     - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 190.8
+      value: 315
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168746033968658, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 3236168746033968659, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_Text
       value: EVERYONE HATES YOU!
       objectReference: {fileID: 0}
+    - target: {fileID: 3236168746033968659, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168746033968659, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 186.17998
+      value: 315
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747323505394, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 53.6
+      value: -57
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747557179216, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747557179216, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747693307546, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_Text
-      value: Try to be a little nicer next time...
+      value: 'Petrified by your continuous displays of trechery, the common folk
+        rose up, to end your reign of terror. Even through your are the kingom''s
+        divine ruler, it would do to show a bit more compassion, even in just the
+        Machiavellian sense of the word. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747693307546, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 587.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 209.4688
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 186.18
+      value: 315
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236168747693307549, guid: 019819275e075434f9162224cba76d4d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 019819275e075434f9162224cba76d4d, type: 3}
