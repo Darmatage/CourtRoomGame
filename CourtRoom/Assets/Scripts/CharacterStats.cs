@@ -21,23 +21,13 @@ public class CharacterStats : MonoBehaviour
         {
             currWealth -= 1;
             currReputation +=1; 
-            if (currWealth <= 0)
-            {
-                Die();
-            }
-        } else if (Input.GetKeyDown("right"))
+
+        } 
+        else if (Input.GetKeyDown("right"))
         {
             currWealth += 1;
             currReputation -=1; 
-            if (currReputation <= 0)
-            {
-                Die();
-            }
         }
     }
     
-    public virtual void Die()
-    {
-        // Go to bad endingm
-    }
 }

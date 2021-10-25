@@ -9,6 +9,8 @@ public class CharacterSpawner : MonoBehaviour
     public Sprite[] Sprite_Pic;
     SpriteRenderer spriteRenderer;
 
+    public int total_sprites_displayed = 0;
+
     private bool inputAllowed = true;
 
     //dialogue object
@@ -48,7 +50,7 @@ public class CharacterSpawner : MonoBehaviour
     {
         executedText();
         yield return new WaitForSeconds(1f);
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 900; i++)
         {
             transform.position += new Vector3(10 * Time.deltaTime, 0, 0);
             yield return null;
@@ -67,7 +69,7 @@ public class CharacterSpawner : MonoBehaviour
     {
         sparedText();
         yield return new WaitForSeconds(2.5f);
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 900; i++)
         {
             transform.position += new Vector3(-10 * Time.deltaTime, 0, 0);
             yield return null;
@@ -87,7 +89,7 @@ public class CharacterSpawner : MonoBehaviour
         rand_num = Random.Range(0, Sprite_Pic.Length);
         GetComponent<SpriteRenderer>().sprite = Sprite_Pic[rand_num];
         spriteRenderer.enabled = true;
-
+        total_sprites_displayed += 1;
         //set text to corresponding image
 
 
