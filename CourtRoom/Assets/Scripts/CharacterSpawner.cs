@@ -57,8 +57,8 @@ public class CharacterSpawner : MonoBehaviour
     IEnumerator Execute()
     {
         executedText();
-        yield return new WaitForSeconds(1f);
-        for (int i = 0; i < 900; i++)
+        yield return new WaitForSeconds(1.5f);
+        for (int i = 0; i < 100; i++)
         {
             transform.position += new Vector3(10 * Time.deltaTime, 0, 0);
             yield return null;
@@ -76,8 +76,8 @@ public class CharacterSpawner : MonoBehaviour
     IEnumerator Spare()
     {
         sparedText();
-        yield return new WaitForSeconds(2.5f);
-        for (int i = 0; i < 900; i++)
+        yield return new WaitForSeconds(1.5f);
+        for (int i = 0; i < 100; i++)
         {
             transform.position += new Vector3(-10 * Time.deltaTime, 0, 0);
             yield return null;
