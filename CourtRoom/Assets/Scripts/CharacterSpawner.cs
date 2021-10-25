@@ -10,7 +10,7 @@ public class CharacterSpawner : MonoBehaviour
     SpriteRenderer spriteRenderer;
 
     public int total_sprites_displayed = 0;
-    public bool sentences_done;  //tracks if entire case has been read
+    public bool sentences_done = false;  //tracks if entire case has been read
     GameObject d_manager;
 
     private bool inputAllowed = true;
@@ -39,18 +39,18 @@ public class CharacterSpawner : MonoBehaviour
         }
         else if (inputAllowed == true)
         {
-            if (Input.GetKey("right") /*&& sentences_done*/)
+            if (Input.GetKey("right") && sentences_done)
             {
                 StartCoroutine(Execute());
                 inputAllowed = false;
             }
-            else if (Input.GetKey("left") /*&& sentences_done*/)
+            else if (Input.GetKey("left") && sentences_done)
             {
                 StartCoroutine(Spare());
                 inputAllowed = false;
             }
         }
-    
+
     }
 
 
@@ -175,6 +175,11 @@ public class CharacterSpawner : MonoBehaviour
         else { sentences = new string [] {"If you're here. It was probably Finn who messed up. Remember that."}; }
 
         TriggerDialogue(sentences);
+    }
+
+    public void sentencesDone(bool sd)
+    {
+        sentences_done = sd;
     }
 
 }

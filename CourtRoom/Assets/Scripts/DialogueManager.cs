@@ -32,6 +32,8 @@ public class DialogueManager : MonoBehaviour
     {
         animator.SetBool("isOpen", true);
 
+        FindObjectOfType<CharacterSpawner>().sentencesDone(false);
+
         sentences.Clear();
 
         foreach(string sentence in dialogue.scenarioSentences)
@@ -68,5 +70,6 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         animator.SetBool("isOpen", false);
+        FindObjectOfType<CharacterSpawner>().sentencesDone(true);
     }
 }
