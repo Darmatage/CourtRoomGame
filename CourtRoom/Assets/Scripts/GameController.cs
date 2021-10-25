@@ -9,34 +9,47 @@ public class GameController : MonoBehaviour
     public int reputation_end;
     public int sprites_displayed;
 
-    void Start()
+    // Update is called once per frame
+    void Update()
     {
         wealth_end = this.GetComponent<CharacterStats>().wealth;
         reputation_end = this.GetComponent<CharacterStats>().reputation;
         sprites_displayed = GameObject.Find("CharacterSpawner").GetComponent<CharacterSpawner>().total_sprites_displayed;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         if (Input.GetKey("escape"))
         {
             Application.Quit();
         }
-    }
-
-    void FixedUpdate()
-    {
         if(sprites_displayed >= 15)
         {
-            if (wealth_end < -4)
+            if (wealth_end <= 0)
             {
                 SceneManager.LoadScene("Ending1");
             }
             else if (reputation_end < -4)
             {
-                //SceneManager.LoadScene("Ending2");
+                SceneManager.LoadScene("Ending2");
+            } else 
+            {
+                SceneManager.LoadScene("Ending3");
             }
         }
     }
+
+    // void FixedUpdate()
+    // {
+    //     if(sprites_displayed >= 6)
+    //     {
+    //         if (wealth_end <= 0)
+    //         {
+    //             SceneManager.LoadScene("Ending1");
+    //         }
+    //         else if (reputation_end < -4)
+    //         {
+    //             SceneManager.LoadScene("Ending2");
+    //         } else 
+    //         {
+    //             SceneManager.LoadScene("Ending3");
+    //         }
+    //     }
+    // }
 }

@@ -19,14 +19,14 @@ public class CharacterStats : MonoBehaviour
     void Update (){
         if (Input.GetKeyDown("left"))
         {
-            currWealth -= 1;
-            currReputation +=1; 
+            wealth -= 1;
+            reputation +=1; 
 
         } 
         else if (Input.GetKeyDown("right"))
         {
-            currWealth += 1;
-            currReputation -=1; 
+            wealth += 1;
+            reputation -=1; 
         }
     }
     
