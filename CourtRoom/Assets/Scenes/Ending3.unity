@@ -343,7 +343,7 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'You managed to strike a balance between your own reputation and the
         wealth of the kingdom, becoming the greatest ruler this land has ever seen.
-        Long my you reign. '
+        Long may you reign. '
       objectReference: {fileID: 0}
     - target: {fileID: 3236168747693307546, guid: 019819275e075434f9162224cba76d4d, type: 3}
       propertyPath: m_FontData.m_FontSize
